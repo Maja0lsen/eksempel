@@ -1,0 +1,86 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}     &      dlogS       & \textbf{  R-squared:         } &     0.341   \\
+\textbf{Model:}             &       OLS        & \textbf{  Adj. R-squared:    } &     0.337   \\
+\textbf{Method:}            &  Least Squares   & \textbf{  F-statistic:       } &     89.92   \\
+\textbf{Date:}              & Fri, 01 Nov 2024 & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}              &     16:14:53     & \textbf{  Log-Likelihood:    } &   -18265.   \\
+\textbf{No. Observations:}  &        9694      & \textbf{  AIC:               } & 3.664e+04   \\
+\textbf{Df Residuals:}      &        9641      & \textbf{  BIC:               } & 3.702e+04   \\
+\textbf{Df Model:}          &          52      & \textbf{                     } &             \\
+\textbf{Covariance Type:}   &       HC1        & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                            & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}          &      -6.8066  &        0.305     &   -22.352  &         0.000        &       -7.403    &       -6.210     \\
+\textbf{year\_1981[T.True]} &       0.3363  &        0.145     &     2.326  &         0.020        &        0.053    &        0.620     \\
+\textbf{year\_1982[T.True]} &       0.1888  &        0.135     &     1.400  &         0.161        &       -0.075    &        0.453     \\
+\textbf{year\_1983[T.True]} &       0.6105  &        0.137     &     4.446  &         0.000        &        0.341    &        0.880     \\
+\textbf{year\_1984[T.True]} &       0.6400  &        0.133     &     4.809  &         0.000        &        0.379    &        0.901     \\
+\textbf{year\_1985[T.True]} &       0.7622  &        0.134     &     5.676  &         0.000        &        0.499    &        1.025     \\
+\textbf{year\_1986[T.True]} &       0.6853  &        0.134     &     5.106  &         0.000        &        0.422    &        0.948     \\
+\textbf{year\_1987[T.True]} &       0.8613  &        0.130     &     6.635  &         0.000        &        0.607    &        1.116     \\
+\textbf{year\_1988[T.True]} &       0.5391  &        0.153     &     3.533  &         0.000        &        0.240    &        0.838     \\
+\textbf{year\_1989[T.True]} &       0.1609  &        0.148     &     1.085  &         0.278        &       -0.130    &        0.451     \\
+\textbf{year\_1990[T.True]} &      -0.0107  &        0.154     &    -0.069  &         0.945        &       -0.313    &        0.291     \\
+\textbf{year\_1991[T.True]} &      -0.0748  &        0.144     &    -0.518  &         0.604        &       -0.358    &        0.208     \\
+\textbf{year\_1992[T.True]} &      -0.0577  &        0.143     &    -0.403  &         0.687        &       -0.338    &        0.223     \\
+\textbf{year\_1993[T.True]} &       0.0154  &        0.150     &     0.103  &         0.918        &       -0.278    &        0.308     \\
+\textbf{year\_1994[T.True]} &       0.2184  &        0.150     &     1.458  &         0.145        &       -0.075    &        0.512     \\
+\textbf{year\_1995[T.True]} &       0.0158  &        0.156     &     0.101  &         0.920        &       -0.291    &        0.322     \\
+\textbf{year\_1996[T.True]} &       0.0928  &        0.153     &     0.607  &         0.544        &       -0.207    &        0.393     \\
+\textbf{year\_1997[T.True]} &       0.1867  &        0.140     &     1.334  &         0.182        &       -0.088    &        0.461     \\
+\textbf{year\_1998[T.True]} &      -0.0740  &        0.158     &    -0.469  &         0.639        &       -0.384    &        0.236     \\
+\textbf{year\_1999[T.True]} &      -0.0017  &        0.164     &    -0.010  &         0.992        &       -0.322    &        0.319     \\
+\textbf{year\_2000[T.True]} &       0.2429  &        0.146     &     1.661  &         0.097        &       -0.044    &        0.529     \\
+\textbf{year\_2001[T.True]} &       0.1172  &        0.155     &     0.758  &         0.448        &       -0.186    &        0.420     \\
+\textbf{year\_2002[T.True]} &      -0.0282  &        0.151     &    -0.186  &         0.852        &       -0.325    &        0.269     \\
+\textbf{year\_2003[T.True]} &      -0.2039  &        0.155     &    -1.319  &         0.187        &       -0.507    &        0.099     \\
+\textbf{year\_2004[T.True]} &      -0.1647  &        0.146     &    -1.126  &         0.260        &       -0.452    &        0.122     \\
+\textbf{year\_2005[T.True]} &      -0.2198  &        0.144     &    -1.525  &         0.127        &       -0.502    &        0.063     \\
+\textbf{year\_2006[T.True]} &      -0.5432  &        0.161     &    -3.371  &         0.001        &       -0.859    &       -0.227     \\
+\textbf{year\_2007[T.True]} &      -0.6369  &        0.160     &    -3.973  &         0.000        &       -0.951    &       -0.323     \\
+\textbf{year\_2008[T.True]} &      -0.9226  &        0.145     &    -6.360  &         0.000        &       -1.207    &       -0.638     \\
+\textbf{year\_2009[T.True]} &      -1.2543  &        0.146     &    -8.598  &         0.000        &       -1.540    &       -0.968     \\
+\textbf{year\_2010[T.True]} &      -1.3210  &        0.160     &    -8.243  &         0.000        &       -1.635    &       -1.007     \\
+\textbf{year\_2011[T.True]} &      -0.9626  &        0.151     &    -6.357  &         0.000        &       -1.259    &       -0.666     \\
+\textbf{year\_2012[T.True]} &      -0.8520  &        0.153     &    -5.566  &         0.000        &       -1.152    &       -0.552     \\
+\textbf{year\_2013[T.True]} &      -0.7867  &        0.152     &    -5.186  &         0.000        &       -1.084    &       -0.489     \\
+\textbf{year\_2014[T.True]} &      -0.7078  &        0.150     &    -4.728  &         0.000        &       -1.001    &       -0.414     \\
+\textbf{year\_2015[T.True]} &      -0.7166  &        0.152     &    -4.712  &         0.000        &       -1.015    &       -0.419     \\
+\textbf{year\_2016[T.True]} &      -0.7124  &        0.155     &    -4.602  &         0.000        &       -1.016    &       -0.409     \\
+\textbf{year\_2017[T.True]} &      -0.9201  &        0.160     &    -5.756  &         0.000        &       -1.233    &       -0.607     \\
+\textbf{year\_2018[T.True]} &      -0.7408  &        0.151     &    -4.898  &         0.000        &       -1.037    &       -0.444     \\
+\textbf{hp}                 &       0.0024  &        0.001     &     4.671  &         0.000        &        0.001    &        0.003     \\
+\textbf{mpg}                &      -0.0115  &        0.004     &    -2.613  &         0.009        &       -0.020    &       -0.003     \\
+\textbf{height}             &      -0.0154  &        0.005     &    -3.105  &         0.002        &       -0.025    &       -0.006     \\
+\textbf{footprint}          &       0.0003  &     1.88e-05     &    16.116  &         0.000        &        0.000    &        0.000     \\
+\textbf{weight}             &      -0.0006  &     6.57e-05     &    -8.762  &         0.000        &       -0.001    &       -0.000     \\
+\textbf{number\_trims}      &       0.0530  &        0.004     &    13.690  &         0.000        &        0.045    &        0.061     \\
+\textbf{releaseYear}        &      -1.2272  &        0.057     &   -21.409  &         0.000        &       -1.340    &       -1.115     \\
+\textbf{yearsSinceDesign}   &      -0.1278  &        0.007     &   -17.621  &         0.000        &       -0.142    &       -0.114     \\
+\textbf{price}              &      -0.0370  &        0.002     &   -21.818  &         0.000        &       -0.040    &       -0.034     \\
+\textbf{van}                &       0.4397  &        0.103     &     4.272  &         0.000        &        0.238    &        0.641     \\
+\textbf{suv}                &       0.8557  &        0.071     &    12.074  &         0.000        &        0.717    &        0.995     \\
+\textbf{truck}              &      -0.3225  &        0.092     &    -3.510  &         0.000        &       -0.502    &       -0.142     \\
+\textbf{sport}              &      -0.6522  &        0.063     &   -10.378  &         0.000        &       -0.775    &       -0.529     \\
+\textbf{EV}                 &      -0.7759  &        0.235     &    -3.308  &         0.001        &       -1.236    &       -0.316     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 2667.330 & \textbf{  Durbin-Watson:     } &    1.694  \\
+\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 7593.048  \\
+\textbf{Skew:}          &  -1.448  & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   6.227  & \textbf{  Cond. No.          } & 7.03e+05  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors are heteroscedasticity robust (HC1) \newline
+ [2] The condition number is large, 7.03e+05. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.
