@@ -68,7 +68,7 @@ def predict(y, X, beta_hat, var_beta_hat, u_hat, lbl_X, lbl_y, robust):
 
 def first_stage(y, X1, X2, Ze, robust=False, quiet=True):
     y, X1, X2, Ze = [pd.DataFrame(var) for var in [y, X1, X2, Ze]]
-    Z = pd.concat([X1, Ze], axis=1)
+    Z = pd.concat([Ze, X1], axis=1)
     results = []
     for i, var in enumerate(X2.columns):
         # OLS regression of each endogenous variable on all exogenous variables and instruments
